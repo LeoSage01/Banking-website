@@ -1,4 +1,3 @@
-import Button from "./button";
 
 const Header = () => {
     return (
