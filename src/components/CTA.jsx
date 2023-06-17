@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "./Button";
 import IMG from "../assets/manisolated.jpg"
 
 const CTA = () => {
