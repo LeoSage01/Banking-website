@@ -1,9 +1,10 @@
 import Button from "./button";
+import IMG from "../assets/manisolated.jpg"
 
 const CTA = () => {
     return (
         <section className="p-4">
-            <div className="flex w-full shadow-lg">
+            <div className="flex flex-col md:flex-row w-full shadow-lg">
                 <div className="w-full p-12">
                     <div className="">
                         <h3 className="font-bold mb-12 pr-6">Open your bank today and experience the next-gen banking</h3>
@@ -25,8 +26,8 @@ const CTA = () => {
 
                 </div>
 
-                <div className="bg-primary w-full h-50">
-                    <img src="" alt="" />
+                <div className="bg-primary w-full p-6 h-50">
+                    <img className="h-100 max-w-full rounded-xl"  src={IMG} alt="" />
                     <p className=""></p>
                     {/* <div className="btn">
                         <div></div>

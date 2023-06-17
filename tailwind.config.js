@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#6d13db",
+        primary: "#4e07f3",
         translucent: "#ffffff9d",
         // dimWhite: "rgba(255, 255, 255, 0.7)",
         // dimBlue: "rgba(9, 151, 124, 0.1)",
@@ -17,10 +17,9 @@ export default {
       },
     },
     screens: {
-      xs: "480px",
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
+      sm: "630px",
+      md: "768px",
+      // lg: "1060px",
       lg: "1200px",
       xl: "1700px",
     },

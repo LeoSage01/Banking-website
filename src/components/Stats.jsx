@@ -4,7 +4,7 @@ import Man from "../assets/maninblack.jpg"
 const Stats = () => {
     return (
         <section className="p-4">
-            <div className="grid grid-cols-5 gap-6 space-x-6 text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-5 gap-6 space-x-6 text-xs">
                 <div className="px-10 col-span-2 ">
                     <h3 className="text-2xl font-bold">Our impact in
                         numbers</h3>
