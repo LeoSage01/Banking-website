@@ -8,9 +8,7 @@ export default {
     extend: {
       colors: {
         primary: "#4e07f3",
-        translucent: "#ffffff9d",
-        // dimWhite: "rgba(255, 255, 255, 0.7)",
-        // dimBlue: "rgba(9, 151, 124, 0.1)",
+        translucent: "#603FEF",
       },
       fontFamily: {
         sans: ["open-sans"],
