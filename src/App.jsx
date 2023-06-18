@@ -15,8 +15,7 @@ import Test from './test/Test'
 const App = () => {
 
   return (
-    <div className="bg-gray-100 w-full overflow-hidden">
-      {/* <Test /> */}
+    <div className="bg-white w-full overflow-hidden">
       <Nav />
        {/* <Header /> */}
       <Services />
