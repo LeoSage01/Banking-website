@@ -1,13 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-// import Lady from '../assets/bluecar.jpg';
 import Biz from '../img/buss6.png';
 import Biz1 from '../img/buss4.jpeg';
 import Biz2 from '../img/buss.png';
 
 const Business = () => {
-  const isMobile = window.innerWidth <= 708; // Set your desired mobile breakpoint here
+  const isMobile = window.innerWidth <= 708;
 
   return (
     <section className="p-4">
