@@ -7,19 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#4e07f3",
-        translucent: "#603FEF",
-      },
-      fontFamily: {
-        sans: ["open-sans"],
+        primary: "#603FEF",
+        translucent: "#cac7c77b",
       },
     },
     screens: {
-      sm: "630px",
+      // xs: "",
+      sm: "672px",
       md: "768px",
-      // lg: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      lg: "908px",
+      xl: "1200px"
     },
   },
   plugins: [],

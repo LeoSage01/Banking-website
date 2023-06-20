@@ -1,13 +1,16 @@
-import Button from "./Button";
-import IMG from "../assets/manisolated.jpg"
+// import IMG from "../img/sd.png"
+import IMG from "../img/mem.png"
+// import IMG1 from "../img/caaa.png"
+import IMG1 from "../img/budget.png"
+import IMG2 from "../img/ctaframe.png"
 
 const CTA = () => {
     return (
         <section className="p-4">
-            <div className="flex flex-col md:flex-row w-full shadow-lg">
-                <div className="w-full p-12">
+            <div className="flex flex-col sm:flex-row w-full md:shadow-lg">
+                <div className="w-full p-8 md:p-12">
                     <div className="">
-                        <h3 className="font-bold mb-12 pr-6">Open your bank today and experience the next-gen banking</h3>
+                        <h3 className="font-bold mb-10 pr-6">Open your bank today and experience the next-gen banking</h3>
                     </div>
 
                     <div className="flex flex-row text-xs font-bold">
@@ -18,26 +21,32 @@ const CTA = () => {
                                     chevron_right
                                 </span>
                             </div>
-                        </div>
+                        </div> 
                         <div className="btn ml-6 ">
                             <p className="text-black">Get started</p>
-                        </div>
+                        </div> 
                     </div>
 
                 </div>
 
-                <div className="bg-primary w-full p-6 h-50">
-                    <img className="h-100 max-w-full rounded-xl"  src={IMG} alt="" />
-                    <p className=""></p>
-                    {/* <div className="btn">
-                        <div></div>
+
+
+                <div className="relative flex justify-center align-middle w-full h-50">
+                    <img className="h-48 w-full md:h-64" src={IMG2} alt="" />
                     
-                        <p>Set a Budget</p>
-                    </div> */}
+                    <div className=" absolute m-auto mt-2 md:mt-8 py-4 w-80">
+                        <img className="absolute h-10 top-0 right-4 md:h-12" src={IMG1} alt="" />
+                        <img className="mx-auto h-36 md:h-44" src={IMG} alt="" />
+                    </div>
                 </div>
+
+
             </div>
         </section>
     );
 }
 
 export default CTA;
+
+
+

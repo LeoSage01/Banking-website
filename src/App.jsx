@@ -9,15 +9,13 @@ import Stats from './components/Stats'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
-// test
-import Test from './test/Test'
 
 const App = () => {
 
   return (
     <div className="bg-white w-full overflow-hidden">
       <Nav />
-       {/* <Header /> */}
+       <Header />
       <Services />
       <StandOut />
       <Mission />

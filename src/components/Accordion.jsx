@@ -5,10 +5,10 @@ const AccordionItem = ({ title, content, isActive, handleClick }) => (
     className={`border-l-2 pl-8 pb-4 ${isActive ? 'border-black' : ''}`}
     onClick={handleClick}
   >
-    <h2 className={`font-bold text-xl mb-1 ${isActive ? 'text-black' : 'text-gray-500'}`}>
+    <h3 className={`font-bold text-lg mb-1 ${isActive ? 'text-black' : 'text-gray-500'}`}>
       {title}
-    </h2>
-    {isActive && <p className='mr-3'>{content}</p>}
+    </h3>
+    {isActive && <p className='mr-3 text-xs'>{content}</p>}
   </div>
 );
 

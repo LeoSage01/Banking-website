@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaUser } from "react-icons/fa"
-
+import IMG1 from "../img/logo.png" 
 
 
 const Nav = () => {
@@ -14,9 +14,8 @@ const Nav = () => {
         <nav>
             <div className="shadow-lg flex p-4 h-16 items-center justify-between">
                 <div className="flex items-center">
-                    <div className="font-bold ml-12 mr-8  text-xl">
-                        <img src="" alt="" />
-                        LOGO
+                    <div className=" ml-8 mr-14 ">
+                        <img className='h-8 sm:h-10' src={IMG1} alt="Logo" />
                     </div>
 
                     <div className="hidden md:block">

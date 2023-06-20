@@ -3,8 +3,8 @@ import { CiMoneyCheck1 } from "react-icons/ci"
 
 const Services = () => {
     return (
-        <section className="p-4">
-            <div className="bg-black p-8 text-white rounded-lg grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-4">
+        <section className="p-4 mt-2">
+            <div className="bg-black p-8 text-white rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-4">
                 <div className=" font-bold text-xl">
                     <h3>Browse our set of banking services and offerings</h3>
                 </div>
