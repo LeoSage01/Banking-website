@@ -1,4 +1,4 @@
-import Button from "./button";
+import Button from "./Button";
 import IMG14 from "../img/maninblack.png"
 
 const Stats = () => {
