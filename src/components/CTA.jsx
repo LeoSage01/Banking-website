@@ -1,6 +1,4 @@
-// import IMG from "../img/sd.png"
 import IMG from "../img/mem.png"
-// import IMG1 from "../img/caaa.png"
 import IMG1 from "../img/budget.png"
 import IMG2 from "../img/ctaframe.png"
 
