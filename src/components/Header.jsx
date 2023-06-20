@@ -1,4 +1,3 @@
-import Button from "./button";
 import PIC from "../img/pic.png"
 import IMG from "../img/mem.png"
 import IMG1 from "../img/budget.png"
