@@ -1,4 +1,4 @@
-import Button from './button';
+import Button from './Button';
 import IMG7 from '../img/jackdorsey.png';
 
 const Mission = () => {
