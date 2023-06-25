@@ -1,10 +1,12 @@
+// import IMG from "../img/sd.png"
 import IMG from "../img/mem.png"
+// import IMG1 from "../img/caaa.png"
 import IMG1 from "../img/budget.png"
 import IMG2 from "../img/ctaframe.png"
 
 const CTA = () => {
     return (
-        <section className="p-4">
+        <section className="animate-fad p-4">
             <div className="flex flex-col sm:flex-row w-full md:shadow-lg">
                 <div className="w-full p-8 md:p-12">
                     <div className="">

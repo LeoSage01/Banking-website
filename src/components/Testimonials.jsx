@@ -4,7 +4,7 @@ import IMG13 from "../img/test3.png";
 
 const Testimonials = () => {
   return (
-    <section className="p-4">
+    <section className="animate-fad p-4">
       <div className="px-6 py-12 bg-black rounded-2xl">
         <h3 className="text-white text-xl font-bold mb-4">You are in good company</h3>
 

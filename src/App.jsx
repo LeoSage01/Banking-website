@@ -1,29 +1,27 @@
-import Nav from './components/Nav'
-import Header from './components/Header'
-import Services from './components/Services'
-import StandOut from './components/StandOut'
-import Mission from './components/Mission'
-import Business from './components/Business'
-import Testimonials from './components/Testimonials'
-import Stats from './components/Stats'
-import CTA from './components/CTA'
-import Footer from './components/Footer'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import Home from "./pages/Home"
+import NotFound from "./pages/NotFound"
+import SignIn from "./pages/SignIn"
+import SignUp from "./pages/SignUp"
+
 
 
 const App = () => {
 
   return (
     <div className="bg-white w-full overflow-hidden">
-      <Nav />
-       <Header />
-      <Services />
-      <StandOut />
-      <Mission />
-      <Business /> 
-      <Testimonials />
-      <Stats />
-      <CTA />
-      <Footer /> 
+          <Router>
+            <Routes>
+              <Route path='/' element={<Home />}></Route>
+              <Route path='about' element={<About />}></Route>
+              <Route path='/contact' element={<Contact />}></Route>
+              <Route path='/signin' element={<SignIn />}></Route>
+              <Route path='/signup' element={<SignUp />}></Route>
+              <Route path='*' element={<NotFound />}></Route>
+            </Routes>
+          </Router>
     </div>
   )
 }

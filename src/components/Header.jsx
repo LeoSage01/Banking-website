@@ -9,7 +9,7 @@ import Cus from "../img/cus.png"
 const Header = () => {
     return (
         <header className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-6 space-x-11 mb-5">
-            <div className="p-6">
+            <div className="animate-fad p-6">
                 <img className="bg-primary rounded-3xl" src={PIC} alt="" />
             </div>
 
@@ -22,7 +22,7 @@ const Header = () => {
                 <img className="" src={Btn} alt="" />
             </div>
 
-            <div className="relative ">
+            <div className="relative animate-fad">
                 <div className=" md:absolute m-auto ">
                     <img className="absolute h-12 md:h-8 lg:h-12 top-0 right-0" src={IMG1} alt="" />
                     <img className="mx-auto h-46 md:mt-2 lg:mt-1" src={IMG} alt="" />

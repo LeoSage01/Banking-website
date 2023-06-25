@@ -49,6 +49,10 @@ section {
     align-items: center;
 }
 
+li:hover {
+  color: #603FEF;
+}
+
 @keyframes fade-in {
   0% {
     -webkit-transform: translateY(100px);

@@ -6,10 +6,10 @@ import Biz1 from '../img/buss4.jpeg';
 import Biz2 from '../img/buss.png';
 
 const Business = () => {
-  const isMobile = window.innerWidth <= 708;
+  const isMobile = window.innerWidth <= 708; // Set your desired mobile breakpoint here
 
   return (
-    <section className="p-4">
+    <section className="animate-fad p-4">
       <h3 className="text-lg text-center font-bold mb-4">
         Our services are designed for <br /> business of all sizes
       </h3>

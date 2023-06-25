@@ -10,13 +10,25 @@ export default {
         primary: "#603FEF",
         translucent: "#cac7c77b",
       },
+      animation: {
+        'fad': 'fade-in 2s linear',
+        'boun': 'bounce 2s linear',
+        'spi': 'spin 2s linear'
+      },
+      // keyframes: {
+      //   wige: {
+      //     '0%, 100%': { transform: 'rotate(-3deg)' },
+      //     '50%': { transform: 'rotate(3deg)' },
+      //   }
+      // }
     },
     screens: {
       // xs: "",
       sm: "672px",
       md: "768px",
       lg: "908px",
-      xl: "1200px"
+      xl: "1020px",
+      xxl: "1200px"
     },
   },
   plugins: [],
