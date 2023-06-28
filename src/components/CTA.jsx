@@ -14,7 +14,7 @@ const CTA = () => {
                     </div>
 
                     <div className="flex flex-row text-xs font-bold">
-                        <div className="btn bg-primary w-32">
+                        <div className="btn bg-primary w-32 hover:animate-bounce hover:shadow-xl">
                             <p className="py-3 pl-3">Call us now</p>
                             <div className="icon text-sm bg-white mr-1">
                                 <span className="text-primary  material-symbols-outlined">
@@ -22,8 +22,8 @@ const CTA = () => {
                                 </span>
                             </div>
                         </div> 
-                        <div className="btn ml-6 ">
-                            <p className="text-black">Get started</p>
+                        <div className="btn ml-6 hover:animate-bounce">
+                            <p className="text-black hover:text-primary">Get started</p>
                         </div> 
                     </div>
 

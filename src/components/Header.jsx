@@ -19,7 +19,7 @@ const Header = () => {
                 <p className="">We understand that your finances can be a difficult task, that is why we are commited to providing you with the guidelines</p>
 
 
-                <img className="" src={Btn} alt="" />
+                <img className="hover:animate-bounce" src={Btn} alt="" />
             </div>
 
             <div className="relative animate-fad">

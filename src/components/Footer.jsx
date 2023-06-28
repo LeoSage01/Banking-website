@@ -43,10 +43,10 @@ const Footer = () => {
         <p className="text-gray-500 text-sm mb-5 md:mb-0">© 2023. All Rights Reserved.</p>
         
         <div className="flex space-x-8">
-          <BsInstagram className="text-white" />
-          <FaFacebookF className="text-white" />
-          <FaLinkedinIn className="text-white" />
-          <BsTwitter className="text-white" />
+          <BsInstagram className="text-white hover:text-primary" />
+          <FaFacebookF className="text-white hover:text-primary" />
+          <FaLinkedinIn className="text-white hover:text-primary" />
+          <BsTwitter className="text-white hover:text-primary" />
         </div>
 
       </div>
