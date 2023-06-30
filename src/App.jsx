@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import SignIn from "./pages/SignIn"
 import SignUp from "./pages/SignUp"
+import Dashboard from './pages/Dashboard';
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
               <Route path='/' element={<Home />}></Route>
               <Route path='about' element={<About />}></Route>
               <Route path='/contact' element={<Contact />}></Route>
+              <Route path='/dashboard' element={<Dashboard />}></Route>
               <Route path='/signin' element={<SignIn />}></Route>
               <Route path='/signup' element={<SignUp />}></Route>
               <Route path='*' element={<NotFound />}></Route>
