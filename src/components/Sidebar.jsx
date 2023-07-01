@@ -1,4 +1,5 @@
 import Logo from "../img/logo2.png"
+import IMG1 from "../img/person4.png"
 
 const Sidebar = () => {
     const items = [
@@ -40,7 +41,7 @@ const Sidebar = () => {
     ]
 
     return (
-        <div className="h-screen w-[20%] p-4 pr-0">
+        <div className="w-[20%] h-full p-4 pr-0">
             <div className="h-full pt-4 pb-8 bg-black text-white flex flex-col w-full justify-between rounded-xl">
                 <div className="">
                     <img className="mx-auto mb-4 h-4 w-12" src={Logo} alt="Logo" />
@@ -59,10 +60,10 @@ const Sidebar = () => {
                 </div>
 
                 <div className="flex flex-col text-center space-y-1">
-                    <div className="mx-auto h-16 w-16 rounded-full bg-red-500 mb-1">
-                        <img src="" alt="" />
+                    <div className="mx-auto h-10 w-10 rounded-full mb-1">
+                        <img className="h-full"  src={IMG1} alt="" />
                     </div>
-                    <h3 className="text-white text-sm">Georgina May</h3>
+                    <p className="text-white text-sm">Georgina May</p>
                     <p className="text-white text-xs font-light">+31 880812231</p>
                 </div>
 

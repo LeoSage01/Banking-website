@@ -1,12 +1,16 @@
+import IMG from "../img/cards.png"
+
 const Cards = () => {
     return (
         <div className="p-4">
-            <h3>My Card</h3>
+            <h3 className="mb-2">My Card</h3>
 
-            <div className="p-2">
-                <img src="" alt="" />
+            <div className="flex justify-center">
+                <img className="h-48" src={IMG} alt="" />
+            </div>
 
-                <div className="bg-white rounded-lg p-4 px-6">
+            <div className="px-4 ">
+                <div className="bg-white rounded-lg px-5 py-2 shadow-md">
                     <p className="text-slate-500 mb-1">Your balance</p>
 
                     <div className="flex justify-between">
@@ -17,7 +21,7 @@ const Cards = () => {
                         </div>
                     </div>
 
-                    <hr className="my-4" />
+                    <hr className="my-3" />
 
                     <div className="grid grid-cols-2 space-x-3">
                         <div className="col-span-1">
@@ -34,8 +38,8 @@ const Cards = () => {
                     </div>
 
                 </div>
-                <div className="py-3 mt-4 bg-primary rounded-md">
-                    <p className="text-xs text-center">Get New Card</p>
+                <div className="py-3 mt-4 bg-[#ebf2fb] rounded-md shadow-sm">
+                    <p className="text-xs text-primary text-center">Get New Card</p>
                 </div>
             </div>
         </div>
