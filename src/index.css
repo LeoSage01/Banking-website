@@ -61,6 +61,16 @@ li:hover {
   color: #603FEF;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @keyframes fade-in {
   0% {
     -webkit-transform: translateY(100px);

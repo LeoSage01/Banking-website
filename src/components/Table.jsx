@@ -12,7 +12,7 @@ const Table = () => {
             date: "10/06/23",
             time: "3:45:10 PM",
             price: 14.02,
-            check: "Completed",
+            status: "Completed",
         },
         {
             id: 2,
@@ -22,7 +22,7 @@ const Table = () => {
             date: "10/06/23",
             time: "3:45:10 PM",
             price: 14.02,
-            check: "Pending",
+            status: "Pending",
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const Table = () => {
             date: "10/06/23",
             time: "3:45:10 PM",
             price: 14.02,
-            check: "Completed",
+            status: "Completed",
         },
         {
             id: 4,
@@ -42,7 +42,7 @@ const Table = () => {
             date: "10/06/23",
             time: "3:45:10 PM",
             price: 14.02,
-            check: "Completed",
+            status: "Completed",
         },
     ];
 
@@ -64,7 +64,7 @@ const Table = () => {
                 <tbody>
                     {items.map((item) => {
                         let color;
-                        if (item.check === "Completed") {
+                        if (item.status === "Completed") {
                              color = "green"
                         } else {
                              color = "red"
@@ -81,7 +81,7 @@ const Table = () => {
                                 <td className="pl-5 py-2 text-slate-500">{item.date}</td>
                                 <td className="pl-5 py-2 text-slate-500">{item.time}</td>
                                 <td className="pl-5 py-2 text-slate-500">${item.price}</td>
-                                <td className={`pl-5 py-2 ${color}`}>{item.check}</td>
+                                <td className={`pl-5 py-2 ${color}`}>{item.status}</td>
                             </tr>
                         )
                     }

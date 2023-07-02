@@ -41,13 +41,13 @@ const Sidebar = () => {
     ]
 
     return (
-        <div className="w-[20%] h-full p-4 pr-0">
-            <div className="h-full pt-4 pb-8 bg-black text-white flex flex-col w-full justify-between rounded-xl">
+        <div className="  w-auto">
+            <div className="h-full px-6 pt-4 pb-8 bg-black text-white flex flex-col w-full justify-between rounded-xl">
                 <div className="">
                     <img className="mx-auto mb-4 h-4 w-12" src={Logo} alt="Logo" />
 
                     {items.map((item) => (
-                        <div className="flex pl-16 space-y-3" key={item.id}>
+                        <div className="flex pl-10 space-y-3" key={item.id}>
                             <img src="" alt="" />
                             <span className="text-white text-base">{item.heading}</span>
                         </div>
