@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import IMG from "../img/ec.jpeg"
 import PuffLoader from "react-spinners/PuffLoader";
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const About = () => {
     const [loading, setLoading] = useState(false)
@@ -82,6 +83,7 @@ const About = () => {
 
                             </div>
                         </section>
+                        <Footer />
                     </div>
             }
 
