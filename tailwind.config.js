@@ -9,6 +9,11 @@ export default {
       colors: {
         primary: "#603FEF",
         translucent: "#cac7c77b",
+        Box:"#E7E8EB",
+        fair:"#FFFFFF",
+        "dark-primary":"#602EEE",
+        ash:"#494949",
+        black:"#000000",
       },
       animation: {
         'fad': 'fade-in 2s linear',
@@ -23,7 +28,7 @@ export default {
       // }
     },
     screens: {
-      // xs: "",
+      xs: "320px",
       sm: "672px",
       md: "768px",
       lg: "908px",
