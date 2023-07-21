@@ -1,5 +1,7 @@
 import { useState } from "react";
 import IMG1 from "../../img/success.png"
+import Amount from "./Amount";
+
 
 const AccDetails = () => {
     const [open, setOpen] = useState(false);
@@ -16,7 +18,7 @@ const AccDetails = () => {
                     onClick={handleOpen}
                 >
                     <p className="my-auto">Choose Bank</p>
-                    <span class="material-symbols-outlined font-bold">
+                    <span className="material-symbols-outlined font-bold">
                         expand_more
                     </span>
                 </div>
@@ -55,6 +57,9 @@ const AccDetails = () => {
                 <div className="w-full mt-4 text-white p-4 bg-primary rounded-md flex justify-center hover:cursor-pointer">
                     <p>Proceed</p>
                 </div>
+
+                <Amount />
+
             </div>
     );
 }

@@ -1,6 +1,4 @@
 import AccDetails from "./AccDetails";
-import Amount from "./Amount";
-
 
 const Trans = () => {
 
@@ -13,9 +11,7 @@ const Trans = () => {
                     <p className="text-slate-500">Send to a Bank Account</p>
                 </div>
 
-                {/* <AccDetails /> */}
-
-                {/* <Amount /> */}
+                <AccDetails />
 
             </div>
            

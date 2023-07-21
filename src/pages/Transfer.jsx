@@ -1,8 +1,9 @@
-import Sidebar from "../components/Sidebar";
+
 import IMG1 from "../img/trans1.png"
 import IMG2 from "../img/trans2.png"
 
 const Transfer = () => {
+
     return (
         <div className="w-screen flex flex-col justify-center">
             <div className="mx-auto w-full md:w-[80%] lg:w-[50%] space-y-6 p-4">
