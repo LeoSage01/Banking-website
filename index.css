@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+section {
+  margin-bottom: 10px;
+}
+
+.set {
+  font-size: 10px;
+  display: flex;
+  color: #fff;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center
+}
+
+.green{
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.btn {
+  display: flex;
+  color: #fff;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.icon {
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover {
+  color: #603FEF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@keyframes fade-in {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+
+@media screen {
+  .spec {
+    
+  }
+}
